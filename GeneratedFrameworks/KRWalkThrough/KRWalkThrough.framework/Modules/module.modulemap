@@ -1,0 +1,11 @@
+framework module KRWalkThrough {
+  umbrella header "KRWalkThrough-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module KRWalkThrough.Swift {
+    header "KRWalkThrough-Swift.h"
+    requires objc
+}

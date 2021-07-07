@@ -1,0 +1,37 @@
+{
+  "framework_name": "FBLPromises.framework",
+  "static_framework": false,
+  "resources": [
+
+  ],
+  "resource_bundles": [
+
+  ],
+  "build_settings": {
+    "ARCHS": "$(ARCHS_STANDARD_64_BIT)",
+    "CODE_SIGN_IDENTITY[sdk=appletvos*]": "",
+    "CODE_SIGN_IDENTITY[sdk=iphoneos*]": "",
+    "CODE_SIGN_IDENTITY[sdk=watchos*]": "",
+    "CURRENT_PROJECT_VERSION": "1",
+    "DEFINES_MODULE": "YES",
+    "DYLIB_COMPATIBILITY_VERSION": "1",
+    "DYLIB_CURRENT_VERSION": "1",
+    "DYLIB_INSTALL_NAME_BASE": "@rpath",
+    "INFOPLIST_FILE": "Target Support Files/PromisesObjC/PromisesObjC-Info.plist",
+    "INSTALL_PATH": "$(LOCAL_LIBRARY_DIR)/Frameworks",
+    "IPHONEOS_DEPLOYMENT_TARGET": "9.0",
+    "LD_RUNPATH_SEARCH_PATHS": "$(inherited) @executable_path/Frameworks @loader_path/Frameworks",
+    "MODULEMAP_FILE": "Target Support Files/PromisesObjC/PromisesObjC.modulemap",
+    "PRODUCT_MODULE_NAME": "FBLPromises",
+    "PRODUCT_NAME": "FBLPromises",
+    "SDKROOT": "iphoneos",
+    "SKIP_INSTALL": "YES",
+    "SWIFT_ACTIVE_COMPILATION_CONDITIONS": "$(inherited) ",
+    "SWIFT_VERSION": "5.0",
+    "TARGETED_DEVICE_FAMILY": "1,2",
+    "VERSIONING_SYSTEM": "apple-generic",
+    "VERSION_INFO_PREFIX": ""
+  },
+  "source_hash": null,
+  "project_root": "/Users/ngo.viet.anh/Developer"
+}
